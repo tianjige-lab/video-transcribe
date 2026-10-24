@@ -1,0 +1,32 @@
+{
+  "name": "video-transcribe",
+  "version": "1.1.0",
+  "description": "Turn any video (YouTube URL or local file) into a timestamped Markdown transcript using Google Gemini.",
+  "bin": {
+    "video-transcribe": "video-transcribe.js"
+  },
+  "main": "video-transcribe.js",
+  "scripts": {
+    "start": "node video-transcribe.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "transcribe",
+    "transcript",
+    "video",
+    "youtube",
+    "gemini",
+    "subtitles",
+    "speech-to-text",
+    "timestamps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianjige-lab/video-transcribe.git"
+  },
+  "homepage": "https://github.com/tianjige-lab/video-transcribe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
